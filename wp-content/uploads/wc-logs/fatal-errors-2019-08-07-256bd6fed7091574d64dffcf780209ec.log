@@ -1,0 +1,4 @@
+2019-08-07T19:14:03+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in D:\xampp\htdocs\projects\wordpressdemo\wp-includes\Requests\Transport\cURL.php on line 441
+
+2019-08-07T19:22:24+00:00 CRITICAL Maximum execution time of 300 seconds exceeded in D:\xampp\htdocs\projects\wordpressdemo\wp-includes\wp-db.php on line 2007
+

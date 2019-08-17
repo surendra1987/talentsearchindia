@@ -1,0 +1,38 @@
+<?php
+
+if (!defined('ABSPATH'))
+    exit;
+oxilab_flip_box_user_capabilities();
+echo '<div class="oxilab-flip-box-col-3">';
+$styledata = Array('id' => 161, 'style_name' => 'style16', 'css' => 'oxilab-flip-type |oxilab-flip-box-flip oxilab-flip-box-flip-left-to-right| oxilab-flip-effects |easing_easeInOutCirc| front-background-color |rgba(240, 240, 240, 1)| front-icon-color |#ffffff| front-icon-background |rgba(255, 24, 68, 1)| front-heading-color |#ff1844| backend-background-color |rgba(255, 24, 68, 1)| backend-info-color |#ffffff|  || || || || || || || || || || || || || flip-col |oxilab-flip-box-col-1| flip-width |280| flip-height |280| margin-top |10| margin-left |20| flip-open-tabs || oxilab-animation || animation-duration |2| flip-boxshow-color |rgba(255, 255, 255, 0.66)| flip-boxshow-horizontal |0| flip-boxshow-vertical |0| flip-boxshow-blur |6| flip-boxshow-spread |0| || || front-icon-size |60| || front-icon-padding-top-bottom |30| front-icon-padding-left-right |10| front-icon-text-align |Center| front-heading-size |24| front-heading-family |Open+Sans| front-heding-style |normal| front-heding-weight |600| front-heding-text-align |Center| front-heding-padding-top |10| front-heding-padding-bottom |10| front-heding-padding-left |10| front-heding-padding-right |10||||||||| || || || || || backend-padding-top |10| backend-padding-left |10| backend-info-size |18| backend-info-family |Open+Sans| backend-info-style |normal| backend-info-weight |300| backend-info-text-align |Center| backend-info-padding-top |10| backend-info-padding-bottom |10| backend-info-padding-left |10| backend-info-padding-right |10| flip-border-radius |10| custom-css |||');
+$listdata = Array(
+    0 => Array('id' => 1, 'styleid' => 161, 'title' => '',
+        'files' => 'flip-box-front-title {#}|{#}BOLD FLIPBOX{#}|{#} flip-box-front-icons {#}|{#}'. FlipBoxesImageAdFAData('facebook').'{#}|{#} flip-box-image-upload-url-01 {#}|{#}{#}|{#} flip-box-backend-desc {#}|{#}Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.{#}|{#} flip-box-backend-link {#}|{#}{#}|{#} flip-box-image-upload-url-02 {#}|{#}{#}|{#}',
+        ),
+);
+echo '<input type="hidden" name="oxilab-flip-box-data-16-' . $listdata[0]['id'] . '" id="oxilab-flip-box-data-16-' . $listdata[0]['id'] . '" value="' . $styledata['css'] . '">';
+echo '<input type="hidden" name="oxilab-flip-box-files-16-' . $listdata[0]['id'] . '" id="oxilab-flip-box-files-16-' . $listdata[0]['id'] . '" value="' . $listdata[0]['files'] . '">';
+echo oxilab_flipbox_admin_style_layouts($styledata, $listdata);
+echo '</div>';
+echo '<div class="oxilab-flip-box-col-3">';
+$styledata = Array('id' => 162, 'style_name' => 'style16', 'css' => 'oxilab-flip-type |oxilab-flip-box-flip oxilab-flip-box-flip-right-to-left| oxilab-flip-effects |easing_easeInOutCirc|front-background-color |rgba(227, 227, 227, 1)| front-icon-color |#ffffff| front-icon-background |rgba(199, 24, 255, 1)| front-heading-color |#c718ff| backend-background-color |rgba(199, 24, 255, 1)| backend-info-color |#ffffff| || || || || || || || || || || || || || flip-col |oxilab-flip-box-col-1| flip-width |280| flip-height |280| margin-top |10| margin-left |20| flip-open-tabs || oxilab-animation || animation-duration |2| flip-boxshow-color |rgba(255, 255, 255, 0.66)| flip-boxshow-horizontal |0| flip-boxshow-vertical |0| flip-boxshow-blur |6| flip-boxshow-spread |0| || || front-icon-size |60| || front-icon-padding-top-bottom |30| front-icon-padding-left-right |10| front-icon-text-align |Center| front-heading-size |24| front-heading-family |Open+Sans| front-heding-style |normal| front-heding-weight |600| front-heding-text-align |Center| front-heding-padding-top |10| front-heding-padding-bottom |10| front-heding-padding-left |10| front-heding-padding-right |10||||||||| || || || || || backend-padding-top |10| backend-padding-left |10| backend-info-size |18| backend-info-family |Open+Sans| backend-info-style |normal| backend-info-weight |300| backend-info-text-align |Center| backend-info-padding-top |10| backend-info-padding-bottom |10| backend-info-padding-left |10| backend-info-padding-right |10| flip-border-radius |10| custom-css |||');
+$listdata = Array(
+    0 => Array('id' => 2, 'styleid' => 162, 'title' => '',
+        'files' => 'flip-box-front-title {#}|{#}BOLD FLIPBOX{#}|{#} flip-box-front-icons {#}|{#}'. FlipBoxesImageAdFAData('fa-balance-scale').'{#}|{#} flip-box-image-upload-url-01 {#}|{#}{#}|{#} flip-box-backend-desc {#}|{#}Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.{#}|{#} flip-box-backend-link {#}|{#}{#}|{#} flip-box-image-upload-url-02 {#}|{#}{#}|{#}',
+        ),
+);
+echo '<input type="hidden" name="oxilab-flip-box-data-16-' . $listdata[0]['id'] . '" id="oxilab-flip-box-data-16-' . $listdata[0]['id'] . '" value="' . $styledata['css'] . '">';
+echo '<input type="hidden" name="oxilab-flip-box-files-16-' . $listdata[0]['id'] . '" id="oxilab-flip-box-files-16-' . $listdata[0]['id'] . '" value="' . $listdata[0]['files'] . '">';
+echo oxilab_flipbox_admin_style_layouts($styledata, $listdata);
+echo '</div>';
+echo '<div class="oxilab-flip-box-col-3">';
+$styledata = Array('id' => 163, 'style_name' => 'style16', 'css' => 'oxilab-flip-type |oxilab-flip-box-flip oxilab-flip-box-flip-top-to-bottom| oxilab-flip-effects |easing_easeInOutCirc|front-background-color |rgba(219, 219, 219, 1)| front-icon-color |#ffffff| front-icon-background |rgba(24, 154, 255, 1)| front-heading-color |#189aff| backend-background-color |rgba(24, 154, 255, 1)| backend-info-color |#ffffff||| || || || || || || || || || || || || flip-col |oxilab-flip-box-col-1| flip-width |280| flip-height |280| margin-top |10| margin-left |20| flip-open-tabs || oxilab-animation || animation-duration |2| flip-boxshow-color |rgba(255, 255, 255, 0.66)| flip-boxshow-horizontal |0| flip-boxshow-vertical |0| flip-boxshow-blur |6| flip-boxshow-spread |0| || || front-icon-size |60| || front-icon-padding-top-bottom |30| front-icon-padding-left-right |10| front-icon-text-align |Center| front-heading-size |24| front-heading-family |Open+Sans| front-heding-style |normal| front-heding-weight |600| front-heding-text-align |Center| front-heding-padding-top |10| front-heding-padding-bottom |10| front-heding-padding-left |10| front-heding-padding-right |10||||||||| || || || || || backend-padding-top |10| backend-padding-left |10| backend-info-size |18| backend-info-family |Open+Sans| backend-info-style |normal| backend-info-weight |300| backend-info-text-align |Center| backend-info-padding-top |10| backend-info-padding-bottom |10| backend-info-padding-left |10| backend-info-padding-right |10| flip-border-radius |10| custom-css |||');
+$listdata = Array(
+    0 => Array('id' => 3, 'styleid' => 163, 'title' => '',
+        'files' => 'flip-box-front-title {#}|{#}BOLD FLIPBOX{#}|{#} flip-box-front-icons {#}|{#}'. FlipBoxesImageAdFAData('fa-copyright').'{#}|{#} flip-box-image-upload-url-01 {#}|{#}{#}|{#} flip-box-backend-desc {#}|{#}Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.{#}|{#} flip-box-backend-link {#}|{#}{#}|{#} flip-box-image-upload-url-02 {#}|{#}{#}|{#}',
+        )
+);
+echo '<input type="hidden" name="oxilab-flip-box-data-16-' . $listdata[0]['id'] . '" id="oxilab-flip-box-data-16-' . $listdata[0]['id'] . '" value="' . $styledata['css'] . '">';
+echo '<input type="hidden" name="oxilab-flip-box-files-16-' . $listdata[0]['id'] . '" id="oxilab-flip-box-files-16-' . $listdata[0]['id'] . '" value="' . $listdata[0]['files'] . '">';
+echo oxilab_flipbox_admin_style_layouts($styledata, $listdata);
+echo '</div>';
