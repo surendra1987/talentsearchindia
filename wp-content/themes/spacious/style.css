@@ -3534,3 +3534,12 @@ li.default-menu {
 	margin-top:34px;
 
 }
+
+.oxilab-flip-box-1{
+    background: url("http://localhost/projects/wordpressdemo/wp-content/uploads/2019/08/download.jpg") !important;
+    -moz-background-size: cover ;
+    -o-background-size: cover;
+    background-size: cover !important;
+	background-repeat:no-repeat !important;
+}
+
