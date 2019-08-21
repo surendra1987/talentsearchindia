@@ -23,9 +23,10 @@
 				?>
 				<div class="credit">Designed & Developed by&nbsp;&nbsp;<a href="http://www.2pisolutions.com">2pisolutions.com</a></div>
 				<style>
-					.credit{
-						margin-right: 50px;
-					}
+					.credit {
+    margin-left: 173px;
+    display: inline-block;
+}
 				</style>
 				<nav class="small-menu clearfix">
 					<?php
