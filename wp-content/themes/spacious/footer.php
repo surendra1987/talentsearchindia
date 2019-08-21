@@ -21,6 +21,12 @@
 			<div class="footer-socket-area">
 				<?php echo "Copyright &copy; 2019 Talent Search Management Consulting";//do_action( 'spacious_footer_copyright' ); 
 				?>
+				<div class="credit">Designed & Developed by&nbsp;&nbsp;<a href="http://www.2pisolutions.com">2pisolutions.com</a></div>
+				<style>
+					.credit{
+						margin-right: 50px;
+					}
+				</style>
 				<nav class="small-menu clearfix">
 					<?php
 					if ( has_nav_menu( 'footer' ) ) {
